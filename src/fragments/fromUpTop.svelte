@@ -4,10 +4,7 @@
       return 'testing'
   }
 
-  const logOut = (someVar): string => {
-    console.log('function ran')
-      return someVar
-  }
+  
 
 const someOtherFunction = () => {
   console.log('some other shit')
