@@ -1,12 +1,15 @@
 <script>
-  const notsure: string = "I'm not sure what I'm doing"
+
+  const test = () => {
+      return 'testing'
+  }
 
   const logOut = (someVar): string => {
     console.log('function ran')
       return someVar
   }
 
-const someOtherFunction = (): string => {
+const someOtherFunction = () => {
   console.log('some other shit')
   return 'testing'
 }
@@ -14,5 +17,5 @@ const someOtherFunction = (): string => {
 
 
 
-    <button onClick={logOut}>Click to log out</button>
-<button onClick={someOtherFunction}>Click to log out</button>
+    <button on:click={test}>Click to log out</button>
+    <button on:click={someOtherFunction}>Click to log out</button>
